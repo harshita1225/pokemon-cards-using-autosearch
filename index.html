@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon card</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Let's Fetch A Pokemon</h1>
+      <section class="container">
+        <input id="search" type="text" placeholder="search my Pokemon!!" />
+        <button id="submit" type="button">SEARCH...</button>
+      </section>
+
+      <section class="card-container">
+        <div id="pokemon-name">POKEMON</div>
+        <div id="pokemon-img">
+          <img
+            src="https://st4.depositphotos.com/14953852/24787/v/600/depositphotos_247872612-stock-illustration-no-image-available-icon-vector.jpg"
+            alt=""
+          />
+        </div>
+
+        <div class="list stats">
+          <h4 class="card-heading">STATS</h4>
+          <ul>
+            <li>Hp<span id="hp"></span></li>
+            <li>Attack<span id="attack">0</span></li>
+            <li>Defence<span id="defence">0</span></li>
+            <li>Special-Attack<span id="special-attack">0</span></li>
+            <li>Special-Defence<span id="special-defence">0</span></li>
+            <li>Speed<span id="speed">0</span></li>
+          </ul>
+        </div>
+
+        <div class="list abilties">
+          <h4 class="card-heading">ABILITIES</h4>
+          <ul id="ability-list"></ul>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./index.js"></script>
+
+    <script></script>
+  </body>
+</html>

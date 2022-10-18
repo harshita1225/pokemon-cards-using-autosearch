@@ -102,7 +102,11 @@ async function pokemonList(url) {
   console.log(list);
 }
 
-const URL = `https://pokeapi.co/api/v2/pokemon/`;
+//let URL = `https://pokeapi.co/api/v2/pokemon/`;
+
+//setting the pokemon list to a limit of 250
+let URL = "https://pokeapi.co/api/v2/pokemon?limit=250";
+
 pokemonList(URL);
 
 /////////////////////////////////////////////////////////////////////

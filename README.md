@@ -19,10 +19,10 @@
 ### Screenshot
 
 - Autosearch name
-  ![autosearch](./Screenshot%20from%202022-10-18%2010-34-29.png)
+  ![autosearch](./img/Screenshot%20from%202022-10-18%2010-34-29.png)
 
 - Display Card
-  ![display card](./Screenshot%20from%202022-10-18%2010-35-16.png)
+  ![display card](.img/Screenshot%20from%202022-10-18%2010-35-16.png)
 
 ### Built with
 
